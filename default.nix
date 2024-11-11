@@ -93,8 +93,7 @@ in
         default = {};
         type = types.attrs;
         example = {
-          "1122:3344" = "5566:7788";
-          "1f11:0000" = "1E30:12BA"; # vcfgclone line for RTX 2060 Mobile 6GB. generates: vcfgclone ${TARGET}/vgpuConfig.xml 0x1E30 0x12BA 0x1f11 0x0000
+          "1f95:0000" = "10de:1f95"; # vcfgclone line for RTX 2060 Mobile 6GB. generates: vcfgclone ${TARGET}/vgpuConfig.xml 0x1E30 0x12BA 0x1f11 0x0000
         };
         description = ''
           Adds vcfgclone lines to the patch.sh script of the vgpu-unlock-patcher.
